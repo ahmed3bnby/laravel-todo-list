@@ -15,7 +15,7 @@
 
 
 <div class="lg:w-2/4 mx-auto py-8 px-6 bg-white rounded-xl">
-    <h1 class="font-bold text-5xl text-center mb-8"> ToDo List </h1>
+    <h1 class="font-bold text-5xl text-center mb-8"> ToDo App </h1>
 
 
 <div class="mt-8">
@@ -53,7 +53,7 @@
             <div 
                 @class([
                     'py-4 flex items-center border-b border-gray-300', 
-                    $todo->isDone ? 'bg-green-200' : ''
+                    $todo->isDone ? 'w-full lg:w-auto py-4 px-8 bg-green-200 rounded-xl' : ''
 
                 ])
             >
